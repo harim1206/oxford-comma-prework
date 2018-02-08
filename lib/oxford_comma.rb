@@ -19,6 +19,7 @@ def oxford_comma(array)
 
   end
 
+  puts string
   return string
 
 end
