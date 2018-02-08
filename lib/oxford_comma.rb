@@ -4,7 +4,7 @@ def oxford_comma(array)
 
   for i in 0..array.size-1 do
 
-    string += "#{array[i]}""
+    string += "#{array[i]}, "
 
   end
 
