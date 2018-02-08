@@ -6,14 +6,16 @@ def oxford_comma(array)
     return "#{array[0]}"
   elsif array.size == 2
     return "#{array[0]} and #{array[1]}."
-  for i in 0..array.size-1 do
+  else
+    for i in 0..array.size-1 do
 
-    if i == array.size-1
-      string += "and #{array[i]}."
-    else
-      string += "#{array[i]}, "
+      if i == array.size-1
+        string += "and #{array[i]}."
+      else
+        string += "#{array[i]}, "
+      end
+
     end
-
   end
 
   puts string
