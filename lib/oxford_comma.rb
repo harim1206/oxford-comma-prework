@@ -6,9 +6,10 @@ def oxford_comma(array)
 
     if i == array.size-1
       string += "and #{array[i]}."
-    end
+    else
 
-    string += "#{array[i]}, "
+      string += "#{array[i]}, "
+    end
 
   end
 
