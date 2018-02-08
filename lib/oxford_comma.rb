@@ -14,11 +14,11 @@ def oxford_comma(array)
       else
         string += "#{array[i]}, "
       end
-      
+
     end
 
   end
 
-  puts string
+  return string
 
 end
